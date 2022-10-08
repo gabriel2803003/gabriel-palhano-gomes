@@ -11,24 +11,26 @@ public class Praticando {
      */
     public static void main(String[] args) {
         for(int i=0;i<100;i++){
-            System.out.println(+i);
+            System.out.println("os numeros sao:"+i);
             
             if (i%3==0){
 System.out.println("uni");
  }
-            if(i%5==0){
-               System.out.println("verso");
                    }
-            
-      if(i%3==0 &&  i%5==0){
-               System.out.println("universo");
+       for(int i=0;i<100;i++){
 
-           }
-      
-           
+           if(i%5==0){
+               System.out.println("verso");
                }
+           }
+       for(int i=0;i<100;i++){
+           
+           if(i%3==0 &&  i%5==0){
+               System.out.println("universo");
+    }
 }
 }
-
+        // TODO code application logic here
+    }
     
 
